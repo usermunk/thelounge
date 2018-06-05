@@ -14,6 +14,11 @@
 	</div>
 
 	<div class="row">
+		<div class="col-sm-12" id="webAppInstallButton" style="display:none">
+			<h2>Native app</h2>
+			<button type="button" class="btn">Add The Lounge to Home screen</button>
+		</div>
+		
 		{{#unless public}}
 		<div class="col-sm-12" data-advanced>
 			<h2>
